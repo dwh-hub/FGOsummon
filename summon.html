@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <style>
-  	.center-vertical{
+  	/*.center-vertical{
   	  position: relative;
   	  top:  50%;
   	  transform: translateY(50%);
@@ -19,6 +19,9 @@
   	}
   	#auto_buy{
   	  margin-top: 25px;
+  	}*/
+  	.tit-img{
+  	  margin-bottom: 25px;
   	}
   </style>
 </head>
@@ -27,23 +30,23 @@
   <hr>
   <div class="container" align="center">
   	<div align="center">
-  	  <img src="https://img2.yqdown.com/img2017/1/3/2017010340303637.jpg" class="img-thumbnail">
+  	  <img src="https://img2.yqdown.com/img2017/1/3/2017010340303637.jpg" class="img-thumbnail tit-img">
   	</div>
   	<div class="row">
-  	  <div class="col-md-3 col-xs-6 col-md-offset-2">
-  	  	<a href="javascript:void(0)" role="button" class="btn btn-primary center-vertical" id="oneS">召唤一次</a>
+  	  <div class="col-md-3 col-md-offset-2 col-sm col-xs-6">
+  	  	<a href="javascript:void(0)" role="button" class="btn btn-primary btn-lg" id="oneS">召唤一次</a>
   	  </div>
-	  <div class="col-md-2 col-xs-6">
-  	  	<a href="javascript:void(0)" role="button" class="btn btn-danger center-vertical" id="tenS">召唤十次</a> 
+	  <div class="col-md-2 col-sm-4 col-xs-6">
+  	  	<a href="javascript:void(0)" role="button" class="btn btn-danger btn-lg" id="tenS">召唤十次</a> 
   	  </div>
-  	  <div class="col-md-1 col-xs-6 col-xs-offset-6 col-md-offset-0 center-vertical-img">
+  	  <div class="col-md-1 col-sm-2 col-xs-3 center-vertical-img">
   	  	<img src="http://img1.ali213.net/webgamepic/uploadfile/news/2015/06/29/ali20150629130520_49018_600.jpg" width="45" height="45"> 
   	  </div>
-  	  <div class="col-md-1 col-xs-2">
-  	  	<h3 class="quartz">167</h3>
+  	  <div class="col-md-1 col-sm-2 col-xs-3 center-vertical-img">
+  	  	<span align="left"><font size="6"><p id="quartz">167</p></font></span>
   	  </div>
-  	  <div class="col-md-2">
-  	  	<input type="checkbox" checked="checked" id="auto_buy" align="center">自动购买圣晶石
+  	  <div class="col-md-2 col-sm-6 col-xs-3">
+  	  	<input type="checkbox" checked="checked" align="center">自动购买圣晶石
   	  </div>
   	</div>
   </div>
