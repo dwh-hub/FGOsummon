@@ -134,7 +134,11 @@ function summon(i){
       "src" : imgurl,
       "width" : 138
     });
-    $("#r_" + i).height(140);
+    if ($(window).width() < 768) {
+      $("#r_" + i).height(107);  
+    } else {
+      $("#r_" + i).height(140);
+    }
     baodi += 1;
   }
   return PR;
